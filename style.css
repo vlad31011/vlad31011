@@ -102,6 +102,9 @@ header{
     margin-right: 50px;
     float: right;
 }
+.news-bottom a{
+    color: #ffffff;
+}
 
 .content-left li{
     list-style-type: none;
