@@ -1,0 +1,33 @@
+@media screen and (max-width: 1248px) {
+    #picture{
+        display: none;
+    }
+    #content{
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-right{
+        margin-right: 5%;
+    }
+    #content{
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer{
+        padding-left: 5%;
+    }
+    .content-right{
+        float: left;
+        margin-left: 2%;
+    }
+    .menu li{
+        font-size: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
