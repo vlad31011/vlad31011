@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test task</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="queries.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/logo.png" width="273" height="100" alt="logo">
+    </div>
+    <div class="phone-number">
+        +7(499)777-77-77<br>
+        +7(499)777-77-77
+    </div>
+    <div class="data">Обратная связь</div>
+    <div class="dashed">-----------------------</div>
+</header>
+
+    <div class="modal-content">
+        <p class="title">Обратная связь</p>
+        <form class="form" name="form" onsubmit="validationForm(); return false">
+            <label for="fname">Ваше имя*</label>
+            <input type="text" id="fname" name="fname" value="" placeholder="Введите ваше имя.." required>
+
+            <label for="phone">Телефон*</label>
+            <input type="tel" id="phone" name="phonenumber" value="" placeholder="Введите номер телефона.." required>
+
+            <label for="mail">Email*</label>
+            <input type="email" id="mail" name="email" value="" placeholder="Введите email.." required>
+
+            <label for="message">Сообщение</label>
+            <input type="text" id="message" name="message" value="">
+
+            <input id="submit" type="submit" name="submit" value="Отправить">
+        </form>
+    </div>
+    <div class="close">&times;</div>
+    <div class="close-background"></div>
+    <div class="background"></div>
+
+<div id="menu">
+    <ul class="menu">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/">Каталог</a></li>
+        <li><a href="/">Доставка и оплата</a></li>
+        <li><a href="/">Прайс-лист</a></li>
+        <li><a href="/">Контанты</a></li>
+    </ul>
+</div>
+<div id="picture">
+    <img class="font1 fade" src="images/font1.png" width="1248" height="462" alt="image">
+    <img class="font2 fade" src="images/font2.png" width="1248" height="462" alt="image">
+</div>
+<div id="button">
+    <img class="button-left" src="images/left-button.png" width="34" height="61" alt="button-left">
+    <img class="button-right" src="images/right-button.png"  width="34" height="61" alt="button-right">
+</div>
+<div id="inner-menu">
+    <ul class="list">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/">Каталог</a></li>
+        <li><a href="/">Бытовая техника</a></li>
+    </ul>
+</div>
+
+
+<div id="content">
+    <div class="left-block">
+        <ul>
+            <li><a href="/">Автомобили</a></li>
+            <li><a href="/">Бытовая техника</a>
+                <ul class="inner-list">
+                    <li><a href="/">Микроволновки</a></li>
+                    <li><a href="/">Холодильники</a></li>
+                    <li><a href="/">Посудомоечные машины</a></li>
+                    <li><a href="/">Чайники</a></li>
+                </ul>
+            </li>
+            <li><a href="/">Мобильная техника</a></li>
+            <li><a href="/">Компьютеры</a></li>
+            <li><a href="/">Одежда</a></li>
+            <li><a href="/">Недвижимость</a></li>
+        </ul>
+        <figure class="excel">
+            <img src="images/excel.png" width="97" height="111" alt="excel">
+            <figcaption>Прайс-лист</figcaption>
+        </figure>
+    </div>
+    <div class="center-block">
+            <ul class="items">
+                <li>
+                    <img  class="item" src="images/photo.png" height="209" width="210" alt="item">
+                    <span>
+                        Самый клевый чайник,<br>
+                        который надо купить!
+                    </span>
+                    <img class="add" src="images/add.png" width="28" height="21" alt="add">
+                    <div class="price">1 900 р.</div>
+                </li>
+                <li>
+                    <img  class="item" src="images/photo.png" height="209" width="210" alt="item">
+                    <span>
+                        Самый клевый чайник,<br>
+                        который надо купить!
+                    </span>
+                    <img class="add" src="images/add.png" width="28" height="21" alt="add">
+                    <div class="price">1 900 р.</div>
+                </li>
+                <li>
+                    <img  class="item" src="images/photo.png" height="209" width="210" alt="item">
+                    <span>
+                        Самый клевый чайник,<br>
+                        который надо купить!
+                    </span>
+                    <img class="add" src="images/add.png" width="28" height="21" alt="add">
+                    <div class="price">1 900 р.</div>
+                </li>
+                <li>
+                    <img  class="item" src="images/photo.png" height="209" width="210" alt="'item">
+                    <span>
+                        Самый клевый чайник,<br>
+                        который надо купить!
+                    </span>
+                    <img class="add" src="images/add.png" width="28" height="21" alt="add">
+                    <div class="price">1 900 р.</div>
+                </li>
+                <li>
+                    <img  class="item" src="images/photo.png" height="209" width="210" alt="item">
+                    <span>
+                        Самый клевый чайник,<br>
+                        который надо купить!
+                    </span>
+                    <img class="add" src="images/add.png" width="28" height="21" alt="add">
+                    <div class="price">1 900 р.</div>
+                </li>
+            </ul>
+        <ul class="numbers">
+            <li><a href="/">1</a></li>
+            <li><a href="/">2</a></li>
+            <li><a href="/">3</a></li>
+            <li><a href="/">4</a></li>
+            <li><a href="/">5</a></li>
+            <li><a href="/">6</a></li>
+            <li><a href="/">7</a></li>
+        </ul>
+        <hr>
+        <div class="left-block-text">
+            Компания «Пиксель Плюс» существует более 6 лет, за это<br>
+            время мы принимали участие в разработке более чем<br>
+            700 сайтов, поэтому можем уверенно называть себя<br>
+            профессионалами. На данный момент наш коллектив<br>
+            состоит из более чем 30 сотрудников работающих в двух<br>
+            офисах в Москве и Зеленограде. Характерные для этого<br>
+            жанра мотивы: неразделённой любви, ухода молодости,<br>
+            угасания души.
+        </div>
+        <div class="right-block-text">
+            Одним из основных направлений работ нашей компании
+            является поисковое продвижение сайтов, на данной
+            момент мы работаем с более чем 150 постоянными
+            клиентами по более чем 11 000 поисковым запросам.
+            При этом в работе основной акцент мы делаем на каче-<br>
+            стве работ, а так же применяем собственные уникальные
+            разработки в области SEO продвижения. На данный
+            момент отдел SEO состоит из 9 человек под руковод-<br>
+            ством ведущего специалиста, преимущественно работа-<br>
+            ющих в нашем московском офисе.
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-position">
+        <div class="footer-left">
+            &#169; 2012-2013 ЗАО &#171;Компания&#187;<br>
+            info&#64;name.ru
+        </div>
+        <div class="footer-center">
+            <ul class="footer-menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/">Католог</a></li>
+                <li><a href="/">Доставка и оплата</a></li>
+                <li><a href="/">Прайс-лист</a></li>
+                <li><a href="/">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <img class="footer-img" src="images/company.png" width="36" height="38" alt="company">
+
+            <div class="footer-txt">
+                Разработка сайта - <br>
+                компания &#171;Пиксель Плюс&#187;
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
