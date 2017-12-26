@@ -1,0 +1,127 @@
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+.b-page{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    font-family: Calibri, Arial;
+}
+
+.b-name{
+    margin: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.b-info{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.b-img{
+    margin: 10px;
+    max-width: 320px;
+    max-height: 240px;
+    border: solid 2px #000000;
+}
+
+.b-info__text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 333px;
+}
+
+.b-text{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.b-capt{
+    color: #0400ff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.b-capt:hover{
+    color: #0400ff;
+    text-decoration: underline;
+}
+
+/*.b-content__experience{
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+}
+.b-experience_text:nth-child(2){
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style-type: disc;
+}*/
+
+.b-skills__block{
+    margin-top: 10px;
+}
+
+.b-skills{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    background-color: #D3D3D3;
+    margin: 20px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-skills_name{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.b-education_name, .b-about_name{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.b-education, .b-about{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.b-content__about, .b-content__education{
+    margin-bottom: 50px;
+}
+
+.b-networks__icon{
+    display: inline-block;
+    width: 130px;
+    height: 101px;
+    background: url('sprite.png') 0 0;
+}
+
+.b-networks__icon_facebook{
+    background-position: 0 0;
+}
+.b-networks__icon_twitter{
+    background-position: 250px 0;
+}
+.b-networks__icon_linkedin{
+    background-position: 130px 0;
+}
+
+.b-footer{
+    display: flex;
+    justify-content: center;
+}
